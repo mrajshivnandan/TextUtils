@@ -1,0 +1,42 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  justify-content:space-evenly;
+}
+nav{
+  background-color: black;
+  color: white;
+}
+.content{
+  background-color: aqua;
+}
+
+.round_circle{
+  display: inline-block;
+  border: 1px solid blue;
+  border-radius: 100%;
+  width:22px;
+  height:22px;
+}
+.bg_dark{
+  background-color: #353544;
+}
+.bg_darkred{
+  background-color: #5e1e19;
+}
+.bg_darkblue{
+  background-color: rgb(63 125 183);
+}
+.btn{
+  border: 2 px solid black;
+}
+.active{
+  font-weight: bold;
+  color: rgb(137, 137, 255);
+}
